@@ -1,13 +1,25 @@
 
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-#Description {
-    font-size: larger;
     text-align: center;
 }
 
-ul {
-    background-color: rgb(192, 147, 147);
+
+.Description {
+    font-size: larger;
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 20px 50px;
+    box-shadow: 2px 2px 5px 1px;
+    border-radius: 20px;
+}
+
+ul li {
+    /* background-color: rgb(181, 230, 236); */
+    margin-bottom: 8px;
+}
+
+ol li {
+    margin-bottom: 8px;
+    text-align: left;
 }
